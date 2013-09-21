@@ -19,15 +19,19 @@ li {
 
  h1 {
  font-family: 'Ledger', serif;
- font-size: 320px;
+ font-size: 440px;
  text-shadow: 2px 2px white;
- margin-left: 70px;
+ text-align: center;
+ margin-left: 12%;
+ margin-top: 18%;
  }
 
 .searchBar {
-  margin-top: 200px;
+  /*margin-top: 200px;
   margin-bottom: 156px;
-  margin-left: 70px;
+  margin-left: 70px;*/
+  margin-top: 35%;
+  text-align: center;
 }
 
 a:hover {
@@ -35,25 +39,32 @@ color: #B43104;
 text-decoration: none;
 }
 
-.col-md-6 {
-  border-radius: 5px;
-  margin-top: 15px;
-  border: 2px solid black;
-}
 
 .logo {
 }
 
 .spacer {
   background-color: black;
-  height: 16px;
+  height: 18px;
 }
 
 form input {
   background-color: gray;
+  float:left;
+  margin-left: 10%;
+  margin-top: 5px;
 }
 
 .navbar {
   background-color: black;
   border: none;
+}
+
+button {
+  float: left;
+  margin-left: 10px;
+}
+
+.col-md-7 {
+  padding-bottom: 30%;
 }
